@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background: #a2d2e7;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: -1;
+}
+
+section{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 80px 100px;
+    color: #fff;
+    z-index: 1;
+    padding-top: 200px;
+    padding-bottom: 300px;
+}
+
+.sec-01{
+    background-image: url(IMG_5448.png);
+}
+
+.container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    z-index: 1;
+}
+
+.main-title{
+    font-size: 4em;
+    margin-bottom: 50px;
+    z-index: 1;
+}
+
+.content {
+    position: relative;
+    width: 1550px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+}
+
+.content .image {
+    position: relative;
+    width: 800px;
+    height: 400px;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.content .image1 {
+    position: relative;
+    width: 800px;
+    height: 400px;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.content .image2 {
+    position: relative;
+    width: 800px;
+    height: 400px;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.content .image img{
+    z-index: 111;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.content .image1 img{
+    z-index: 111;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.content .image2 img{
+    z-index: 111;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.content .text-box {
+    z-index: 222;
+    font-size: 30px;
+    background: rgb(255, 255, 255, 0.1);
+    backdrop-filter: blur(20px);
+    padding: 40px;
+    max-width: 600px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    transform: translate(-80px, 50px);
+}
+
+.content .context-box h3{
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.media-icons{
+    margin-top: 100px;
+}
+
+.media-icons a{
+    color: #fff;
+    font-size: 2em;
+    margin: 60px;
+}
+
